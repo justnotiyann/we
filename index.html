@@ -29,11 +29,7 @@
 			>
 				<thead>
 					<tr>
-						<th>
-							Provinsi
-						</th>
 						<th>Nama</th>
-						<th>Jabatan</th>
 						<th>
 							Media Sosial
 						</th>
@@ -46,17 +42,11 @@
 					>
 						<tr>
 							<td
-								x-text="data.provinsi"
-							></td>
-							<td
 								x-text="data.nama"
-							></td>
-							<td
-								x-text="data.jabatan"
 							></td>
 							<td>
 								<a
-									:href="'https://instagram.com/' + data.instagram"
+									:href="data.instagram"
 									target="_blank"
 									x-text="'@' + data.instagram"
 								></a>
@@ -76,346 +66,204 @@
 						() => ({
 							dataList: [
 								{
-									provinsi:
-										"Jawa Barat",
-									nama: "Ridwan Kamil",
-									jabatan:
-										"Gubernur",
+									nama: "Dedi Mulyadi",
 									instagram:
-										"ridwankamil",
+										"https://www.instagram.com/dedimulyadi71/",
 								},
 								{
-									provinsi:
-										"Jawa Barat",
-									nama: "Uu Ruzhanul Ulum",
-									jabatan:
-										"Wakil Gubernur",
-									instagram:
-										"ruzhanul",
-								},
-								{
-									provinsi:
-										"Kota Bandung",
-									nama: "Oded M. Danial",
-									jabatan:
-										"Wali Kota",
-									instagram:
-										"mangoded_md",
-								},
-								{
-									provinsi:
-										"Kota Bandung",
-									nama: "Yana Mulyana",
-									jabatan:
-										"Wakil Wali Kota",
-									instagram:
-										"kangyanamulyana",
-								},
-								{
-									provinsi:
-										"Kabupaten Bandung",
-									nama: "Dadang Supriatna",
-									jabatan:
-										"Bupati",
-									instagram:
-										"dadangsupriatna",
-								},
-								{
-									provinsi:
-										"Kabupaten Bandung",
-									nama: "Sahrul Gunawan",
-									jabatan:
-										"Wakil Bupati",
-									instagram:
-										"sahrulgunawanofficial",
-								},
-								{
-									provinsi:
-										"Kabupaten Sumedang",
-									nama: "Dony Ahmad Munir",
-									jabatan:
-										"Bupati",
-									instagram:
-										"donyahmadmunir",
-								},
-								{
-									provinsi:
-										"Kabupaten Sumedang",
 									nama: "Erwan Setiawan",
-									jabatan:
-										"Wakil Bupati",
 									instagram:
-										"erwansetiawan_",
+										"https://www.instagram.com/erwansetiawan54/",
 								},
 								{
-									provinsi:
-										"Kabupaten Pangandaran",
-									nama: "Jeje Wiradinata",
-									jabatan:
-										"Bupati",
+									nama: "Buky Wibawa Karya Guna",
 									instagram:
-										"jejewiradinata",
+										"https://www.instagram.com/buckywikagoe/?hl=en",
 								},
 								{
-									provinsi:
-										"Kabupaten Pangandaran",
-									nama: "Ujang Endin Indrawan",
-									jabatan:
-										"Wakil Bupati",
+									nama: "Muhammad Farhan",
 									instagram:
-										"ujangendinindrawan",
+										"https://www.instagram.com/hmfarhanbdg/?hl=en",
 								},
 								{
-									provinsi:
-										"Kabupaten Majalengka",
-									nama: "Karna Sobahi",
-									jabatan:
-										"Bupati",
+									nama: "Erwin",
 									instagram:
-										"karnasobahi",
+										"https://www.instagram.com/kangerwin_bdg/?hl=en",
 								},
 								{
-									provinsi:
-										"Kota Cirebon",
-									nama: "Nashrudin Azis",
-									jabatan:
-										"Wali Kota",
+									nama: "Dadang Supriatna",
 									instagram:
-										"nashrudin_azis",
+										"https://www.instagram.com/dadangsupriatna/?hl=en",
 								},
 								{
-									provinsi:
-										"Kota Cirebon",
-									nama: "Eti Herawati",
-									jabatan:
-										"Wakil Wali Kota",
+									nama: "Ali Syakieb",
 									instagram:
-										"etiherawati",
+										"https://www.instagram.com/alisyakieb/?hl=en",
 								},
 								{
-									provinsi:
-										"Kabupaten Cirebon",
-									nama: "Imron Rosyadi",
-									jabatan:
-										"Bupati",
+									nama: "Dony Ahmad Munir",
 									instagram:
-										"imron_rosyadi",
+										"https://www.instagram.com/donyahmad.munir/?hl=en",
 								},
 								{
-									provinsi:
-										"Kota Bekasi",
-									nama: "Rahmat Effendi",
-									jabatan:
-										"Wali Kota",
+									nama: "Fajar Aldila",
 									instagram:
-										"bangpepen03",
+										"https://www.instagram.com/fajar.aldila/?hl=en",
 								},
 								{
-									provinsi:
-										"Kota Bekasi",
-									nama: "Tri Adhianto",
-									jabatan:
-										"Wakil Wali Kota",
+									nama: "Citra Fitriyaml",
 									instagram:
-										"mastriadhianto",
+										"https://www.instagram.com/citrapitriyami1207/?hl=en",
 								},
 								{
-									provinsi:
-										"Kabupaten Tasikmalaya",
-									nama: "Ade Sugianto",
-									jabatan:
-										"Bupati",
+									nama: "Ino Darsono",
 									instagram:
-										"adesugianto_official",
+										"https://www.instagram.com/h_inodarsono/?hl=en",
 								},
 								{
-									provinsi:
-										"Kabupaten Tasikmalaya",
-									nama: "Cecep Nurul Yakin",
-									jabatan:
-										"Wakil Bupati",
+									nama: "Eman Suherman",
 									instagram:
-										"cecepnuryakin",
+										"https://www.instagram.com/eman_suherman15/",
 								},
 								{
-									provinsi:
-										"Kota Sukabumi",
-									nama: "Achmad Fahmi",
-									jabatan:
-										"Wali Kota",
+									nama: "Dena Muhamad Ramdhan",
 									instagram:
-										"achmadfahmi.smi",
+										"https://www.instagram.com/dena_muhamad_ramdhan/",
 								},
 								{
-									provinsi:
-										"Kota Sukabumi",
-									nama: "Andri Setiawan Hamami",
-									jabatan:
-										"Wakil Wali Kota",
+									nama: "Imron",
 									instagram:
-										"andrisetiawanhamami",
+										"https://www.instagram.com/kangimron.rosyadi/?hl=en",
 								},
 								{
-									provinsi:
-										"Kota Bogor",
-									nama: "Bima Arya",
-									jabatan:
-										"Wali Kota",
+									nama: "Agus Kurniawan Budiman",
 									instagram:
-										"bimaaryasugiarto",
+										"https://www.instagram.com/kang_jigus/?locale=us&hl=am-et",
 								},
 								{
-									provinsi:
-										"Kota Bogor",
-									nama: "Dedie A. Rachim",
-									jabatan:
-										"Wakil Wali Kota",
+									nama: "Effendi Edo",
 									instagram:
-										"dedie.rachim",
+										"https://www.instagram.com/effendiedo65/",
 								},
 								{
-									provinsi:
-										"Kabupaten Bogor",
-									nama: "Ade Yasin",
-									jabatan:
-										"Bupati",
+									nama: "Siti Farida Rosmawati",
 									instagram:
-										"ade.yasin",
+										"https://www.instagram.com/sitifaridahandoyo/",
 								},
 								{
-									provinsi:
-										"Kabupaten Bogor",
-									nama: "Iwan Setiawan",
-									jabatan:
-										"Wakil Bupati",
+									nama: "Dian Rachmat Yanuar",
 									instagram:
-										"iwansetiawan_70",
+										"https://www.instagram.com/dian_rachmat_y/",
 								},
 								{
-									provinsi:
-										"Kabupaten Karawang",
-									nama: "Cellica Nurrachadiana",
-									jabatan:
-										"Bupati",
+									nama: "Tuti Andriani",
 									instagram:
-										"cellicanurrachadiana",
+										"https://www.instagram.com/official_tutiandriani/",
 								},
 								{
-									provinsi:
-										"Kabupaten Karawang",
+									nama: "Herdlat Sunarya",
+									instagram:
+										"https://www.instagram.com/herdiat.sunarya/?hl=en",
+								},
+								{
+									nama: "Yana Diana Putra",
+									instagram:
+										"https://www.instagram.com/yana_d_putra/?hl=en",
+								},
+								{
+									nama: "Tri Adhianto Tjahyono",
+									instagram:
+										"https://www.instagram.com/mastriadhianto/?hl=en",
+								},
+								{
+									nama: "Abdul Harris Bobihoe",
+									instagram:
+										"https://www.instagram.com/harris.bobihoe/?hl=en",
+								},
+								{
+									nama: "Viman Alfarizi Ramadhan",
+									instagram:
+										"https://www.instagram.com/viman.alfarizi/?hl=en",
+								},
+								{
+									nama: "Diky Candra Negara",
+									instagram:
+										"https://www.instagram.com/dikychandra_new/?hl=en",
+								},
+								{
+									nama: "Sudarsono",
+									instagram:
+										"https://www.instagram.com/konco_sudarsono/",
+								},
+								{
+									nama: "Ngatiyana",
+									instagram:
+										"https://www.instagram.com/letkolpurn.ngatiyana/",
+								},
+								{
+									nama: "Adhitia Yudisthira",
+									instagram:
+										"https://www.instagram.com/adhitiayudisthira/",
+								},
+								{
+									nama: "Chandra Rahmansyah",
+									instagram:
+										"https://www.instagram.com/chandrarahmansyah.official/",
+								},
+								{
+									nama: "Bobby Maulana",
+									instagram:
+										"https://www.instagram.com/bobbymaulana/",
+								},
+								{
+									nama: "Dedie Rachim",
+									instagram:
+										"https://www.instagram.com/dedierachim/",
+								},
+								{
+									nama: "Jenal Mutaqin",
+									instagram:
+										"https://www.instagram.com/jenalmutaqin_17/",
+								},
+								{
 									nama: "Aep Syaepuloh",
-									jabatan:
-										"Wakil Bupati",
 									instagram:
-										"aep_syaepuloh",
+										"https://www.instagram.com/aep_syaepulohse/?api=postMessage",
 								},
 								{
-									provinsi:
-										"Kabupaten Garut",
-									nama: "Rudy Gunawan",
-									jabatan:
-										"Bupati",
+									nama: "Maslani",
 									instagram:
-										"rudy_gunawan_garut",
+										"https://www.instagram.com/tatianamaslany/",
 								},
 								{
-									provinsi:
-										"Kabupaten Garut",
-									nama: "Helmi Budiman",
-									jabatan:
-										"Wakil Bupati",
+									nama: "Ade Kuswara Kunang",
 									instagram:
-										"helmibudiman_garut",
+										"https://www.instagram.com/ade_kuswara_kunang/",
 								},
 								{
-									provinsi:
-										"Kabupaten Indramayu",
-									nama: "Nina Agustina",
-									jabatan:
-										"Bupati",
+									nama: "Luthfianisa Putri Karlina",
 									instagram:
-										"ninaagustina1708",
+										"https://www.instagram.com/putri.karlina14/",
 								},
 								{
-									provinsi:
-										"Kabupaten Indramayu",
-									nama: "Lucky Hakim",
-									jabatan:
-										"Wakil Bupati",
+									nama: "Rudy Susmanto",
 									instagram:
-										"luckyhakimofficial",
+										"https://www.instagram.com/rudysusmanto/",
 								},
 								{
-									provinsi:
-										"Kabupaten Purwakarta",
-									nama: "Anne Ratna Mustika",
-									jabatan:
-										"Bupati",
+									nama: "Ade Ruhandi",
 									instagram:
-										"anneratna82",
+										"https://www.instagram.com/jaro_ade/",
 								},
 								{
-									provinsi:
-										"Kabupaten Purwakarta",
-									nama: "Aming",
-									jabatan:
-										"Wakil Bupati",
+									nama: "Syaefudin",
 									instagram:
-										"aming_purwakarta",
+										"https://www.instagram.com/syaefudinaa13/",
 								},
 								{
-									provinsi:
-										"Kabupaten Bandung Barat",
-									nama: "Aa Umbara Sutisna",
-									jabatan:
-										"Bupati",
+									nama: "Mohammad Wahyu Ferdian",
 									instagram:
-										"aaumbara",
-								},
-								{
-									provinsi:
-										"Kabupaten Bandung Barat",
-									nama: "Hengky Kurniawan",
-									jabatan:
-										"Wakil Bupati",
-									instagram:
-										"hengkykurniawan",
-								},
-								{
-									provinsi:
-										"Kabupaten Sukabumi",
-									nama: "Marwan Hamami",
-									jabatan:
-										"Bupati",
-									instagram:
-										"marwanhamami",
-								},
-								{
-									provinsi:
-										"Kabupaten Sukabumi",
-									nama: "Iyos Somantri",
-									jabatan:
-										"Wakil Bupati",
-									instagram:
-										"iyossomantri",
-								},
-								{
-									provinsi:
-										"Kabupaten Cianjur",
-									nama: "Herman Suherman",
-									jabatan:
-										"Bupati",
-									instagram:
-										"hermansuhermanofficial",
-								},
-								{
-									provinsi:
-										"Kabupaten Cianjur",
-									nama: "TB Mulyana Syahrudin",
-									jabatan:
-										"Wakil Bupati",
-									instagram:
-										"tbmulyana_syahrudin",
+										"https://www.instagram.com/dr.mohammadwahyu/",
 								},
 							],
 						})
